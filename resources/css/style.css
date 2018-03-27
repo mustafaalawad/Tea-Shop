@@ -1,0 +1,183 @@
+html, body {
+  margin: 0;
+  font-family: helvetica;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9px;
+  min-width: 1200px;
+}
+header {
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  background-color: black;
+}
+/* THE HEADER NAV */
+#main-header {
+  border-bottom: 1px solid seashell;
+  //padding-bottom: px;
+}
+#main-header img {
+  margin: 10px 0px 0px 10px;
+  height: 50px;
+  //border: 1px solid white;
+}
+#main-header a {
+  color: seashell;
+}
+.cont-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navbar {
+  //border: 1px solid seashell;
+  margin-right: 10px;
+  align-self: center;
+  display: flex;
+}
+.navspan {
+  margin-left: 30px;
+}
+/*----MISSION TEIL----*/
+#mission {
+}
+.cont-mission {
+  margin: 0 auto 0px auto;
+  width: 1200px;
+  height: 700px;
+  //border: 1px solid white;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  background: url('../images/img-mission-background.jpg') no-repeat;
+  flex-wrap: wrap;
+}
+.title-miss {
+  background-color: #000000;
+  height:50px;
+  margin-top: 15px;
+}
+.subtitle-miss {
+  background-color: #000000;
+  height:50px;
+}
+/*----FEATURED ----*/
+#main-featured img {
+  width: 300px;
+  height: 200px;
+}
+#main-featured{
+  color: seashell;
+  width: 1000px;
+  /border: 1px solid white;
+  margin: 0 auto;
+}
+.title-feat {
+  /background-color: #4CAF50;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.title-one {
+  margin: 60px 0 -30px 0;
+}
+#main-featured .cont-img {
+  /display: flex;
+  /flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.primary-text {
+  margin-top: 10px;
+}
+.one {
+  margin-right: 50px;
+}
+.three {
+  margin-left: 50px;
+}
+.four, .five {
+  margin: 0 30px;
+}
+/* --- THE LOCATION TEIL---*/
+#main-location {
+  color: seashell;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url('../images/img-locations-background.jpg') no-repeat;
+}
+section .title-location {
+  text-align: center;
+  margin: 20px 0 0 0 ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin-bottom: -45px;
+}
+.boxs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /border: 1px solid red;
+  margin: 60px 0 60px 0;
+  opacity: 1px;
+}
+.box-one {
+  width: 300px;
+  height: 300px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 40px 0 40px;
+  }
+.box-two {
+  width: 300px;
+  height: 300px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+.box-three {
+  width: 300px;
+  height: 300px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 40px 0 40px;
+  }
+.boxs span {
+  margin-bottom: 30px;
+}
+/* -- FOOTER TEILE --*/
+#main-footer {
+  height: 200px;
+  /background-color: red;
+  margin: -10px auto;
+  text-align: center;
+}
+/* -- FOOTER TEILE --*/
+/* THE COPYRIGHT */
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*--THE COPYRIGHT ENDE--*/
